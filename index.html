@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.css"
+      integrity="sha256-+dIh4jG2jQTHZwW81yUo8h6tzXWcNumyNL5XPZbwp1E="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Homemade+Apple&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://use.fontawesome.com/799b2b4cb8.js"></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="fullpage">
+      <div class="section s1">
+        <div class="container">
+          <video autoplay muted loop id="myVideo">
+            <source src="rain.mp4" type="video/mp4" />
+          </video>
+
+          <div class="presentation">
+            <div class="introduce">
+              <h1 class="ime">MILAN</h1>
+              <br />
+              <h1 class="prezime">ADAMOVIĆ</h1>
+            </div>
+            <div class="cover">
+              <img src="fulstack.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <section class="imgBx">
+          <img src="bg.jpg" alt="" />
+        </section>
+      </div>
+      <div class="section s2">
+        <div class="gallery">
+          <div class="clipped-border">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://karzimeg.github.io/konvertor/"
+            >
+              <img src="sajt1.JPG" id="clipped"
+            /></a>
+          </div>
+          <div class="clipped-border">
+            <img src="sajt2.JPG" id="clipped" />
+          </div>
+          <div class="clipped-border">
+            <img src="slika4.JPG" id="clipped" />
+          </div>
+          <div class="clipped-border">
+            <img src="sajt3.JPG" id="clipped" />
+          </div>
+          <div class="clipped-border">
+            <img src="sajt5.JPG" id="clipped" />
+          </div>
+          <div class="shadow"></div>
+        </div>
+      </div>
+      <div class="section s3">
+        <div class="omeni">
+          <h1 class="omenicss">
+            Hi, my name is Milan <br />
+            and i am front-end web developer
+          </h1>
+
+          <a href="something" class="button2">resume</a>
+        </div>
+      </div>
+      <div class="section s4">
+        <button> <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/karzimeg"
+          > Github</button>
+        <button> <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/milan-adamovi%C4%87-005870152/"
+          > LinkedIn</button>
+        </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.js"
+      integrity="sha256-caNcSA0LvOCX90PTuEbwl+V09xPMca13CJUasl+VCtk="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      new fullpage("#fullpage", {
+        //options here
+        autoScrolling: true,
+        navigation: true
+      });
+    </script>
+  </body>
+</html>
